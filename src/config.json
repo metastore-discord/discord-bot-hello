@@ -1,0 +1,7 @@
+{
+	"setPrefix": "bot",
+	"setToken": "APP_BOT_USER_TOKEN",
+	"setCmdTrigger": "+",
+	"setGame": "METADATA.Foundation",
+	"setColor": "0xFF0000"
+}
