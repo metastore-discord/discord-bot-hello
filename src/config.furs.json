@@ -2,6 +2,6 @@
 	"setPrefix": "bot",
 	"setToken": "APP_BOT_USER_TOKEN",
 	"setCmdTrigger": "+",
-	"setGame": "METADATA.Foundation",
+	"setGame": "FURS.Network",
 	"setColor": "0xFF0000"
 }
