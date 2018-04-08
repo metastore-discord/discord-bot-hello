@@ -34,18 +34,21 @@ client.on('guildMemberAdd', member => {
 		'\nРебята, позвольте представить вам нового участника нашего сообщества - ' + member + '.' +
 		'\n' + member + ', добро пожаловать на один из лучших серверов сообщества FURRY (ФУРРИ). Я являюсь личным роботом этого сообщества.' +
 		'\nУ нас ты можешь найти друзей по интересам, узнать много нового и необычного, рассказать о своем увлечении или навыке в прямом эфире на нашем радио.' +
+		'\nЕсли тебе не трудно, ответь на несколько вопросов:' +
+		'\n1. Ты ФУРРИ?' +
+		'\n2. Если да, то кто ты по фурсоне?' +
+		'\n3. Сколько тебе лет?.' +
 		'\nНиже представлены ссылки и описания наших ресурсов.' +
 		'\n\n```markdown' +
 		'\n# РЕСУРСЫ\n' +
 		'\n[-] https://furs.network     - сеть сообщества FURRY.' +
-		'\n[-] https://radio.wtf        - интернет-радиостанция.' +
-		'\n\n# СОЦИАЛЬНЫЕ СЕТИ\n' +
-		'\n[-] https://vk.com/furs.life - сообщество FURRY в ВКонтакте.' +
+		'\n[-] https://furryradio.pro   - интернет-радиостанция.' +
+		'\n[-] https://vk.com/furs.life - представительство FURRY в ВКонтакте.' +
 		'```';
 
 	let channel = member.guild.channels;
 	let channel_log = channel.find('name', 'log-bot');
-	let channel_general = channel.find('name', 'public');
+	let channel_general = channel.find('name', 'public-rus');
 
 	if (!channel_log || !channel_general) return;
 
